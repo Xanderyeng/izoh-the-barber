@@ -75,7 +75,7 @@ export function Contact() {
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               Book a Session
               <br />
-              <span className="text-amber-500">or Enquire</span>
+              <span className="text-amber-500">Professional Enquiries Welcome</span>
             </h2>
 
             <p className="text-zinc-300 mb-12 text-lg">

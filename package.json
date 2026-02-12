@@ -1,6 +1,7 @@
 {
-      "name": "Responsive Barber Portfolio Site",
-      "version": "0.1.0",
+      "name": "izoh-the-barber-portfolio",
+      "version": "1.1.0",
+      "author": "Alexander",
       "private": true,
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
