@@ -79,7 +79,7 @@ export function Contact() {
             </h2>
 
             <p className="text-zinc-300 mb-12 text-lg">
-              Whether you want to book a session, discuss a collaboration, or you're an employer looking to connect — I'd love to hear from you. Currently based at Spritz Hair Studio, Runda Mall, Nairobi and open to opportunities.
+              Whether you want to book a session, discuss a collaboration, or you're an employer looking to connect. I'd love to hear from you.
             </p>
 
             {/* Contact Info */}
