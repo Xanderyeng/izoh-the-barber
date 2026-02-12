@@ -1,10 +1,33 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import izohCaucasianHair from '../assets/izohCaucasianHair.webp';
-import izohYouthCut from '../assets/izohYouthCut.webp';
-import izohProfessional from '../assets/izohProfessional.webp';
-import izohBeardWork from '../assets/izohBeardWork.webp';
+import izohCaucasianHair from '../assets/images/izohCaucasianHair.jpeg';
+import izohYouthCut from '../assets/images/izohYouthCut.jpeg';
+import izohProfessional from '../assets/images/izohProfessional.webp';
+import izohBeardWork from '../assets/images/izohBeardWork.jpeg';
+import signal2 from '../assets/images/signal-2026-02-12-171121_002.jpeg';
+import signal3 from '../assets/images/signal-2026-02-12-171121_003.jpeg';
+import signal4 from '../assets/images/signal-2026-02-12-171121_004.jpeg';
+import signal5 from '../assets/images/signal-2026-02-12-171121_005.jpeg';
+import signal6 from '../assets/images/signal-2026-02-12-171121_006.jpeg';
+import signal8 from '../assets/images/signal-2026-02-12-171121_008.jpeg';
+import signal9 from '../assets/images/signal-2026-02-12-171121_009.jpeg';
+import signal10 from '../assets/images/signal-2026-02-12-171121_010.jpeg';
+import signal11 from '../assets/images/signal-2026-02-12-171121_011.jpeg';
+import signal12 from '../assets/images/signal-2026-02-12-171121_012.jpeg';
+import signal13 from '../assets/images/signal-2026-02-12-171121_013.jpeg';
+import signal14 from '../assets/images/signal-2026-02-12-171121_014.jpeg';
+import signal15 from '../assets/images/signal-2026-02-12-171121_015.jpeg';
+import signal18 from '../assets/images/signal-2026-02-12-171121_018.jpeg';
+import signal19 from '../assets/images/signal-2026-02-12-171121_019.jpeg';
+import signal20 from '../assets/images/signal-2026-02-12-171121_020.jpeg';
+import signal21 from '../assets/images/signal-2026-02-12-171121_021.jpeg';
+import signal22 from '../assets/images/signal-2026-02-12-171121_022.jpeg';
+import signal23 from '../assets/images/signal-2026-02-12-171121_023.jpeg';
+import signal from '../assets/images/signal-2026-02-12-171121.jpeg';
+import image1 from '../assets/images/0c11fae0fddd7d97faf94075dee8723193d699dc.png';
+import image2 from '../assets/images/37b0166d6e1fb009433aedb9aa0e7a3f8e04568f.png';
+import image3 from '../assets/images/3929a9dc05e7aa9f05f70d13dcefc608690874d0.png';
 
 export function Portfolio() {
   const [ref, inView] = useInView({
@@ -21,7 +44,7 @@ export function Portfolio() {
       id: 1,
       title: 'Precision Fade',
       category: 'Fades',
-      image: 'https://images.unsplash.com/photo-1651769353067-be97458cdb2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxza2luJTIwZmFkZSUyMGhhaXJjdXQlMjBibGFjayUyMGhhaXJ8ZW58MXx8fHwxNzcwODU1NDgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal2,
     },
     {
       id: 2,
@@ -55,43 +78,133 @@ export function Portfolio() {
       id: 6,
       title: 'Skin Fade',
       category: 'Fades',
-      image: 'https://images.unsplash.com/photo-1653758265969-b048bb0b328a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGJhcmJlciUyMGZhZGUlMjBoYWlyY3V0fGVufDF8fHx8MTc3MDg1NjQ1NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal3,
     },
     {
       id: 7,
       title: 'Precision Scissor Cut',
       category: 'Cuts',
-      image: 'https://images.unsplash.com/photo-1761931403671-d020a14928d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVjaXNpb24lMjBoYWlyY3V0JTIwc2Npc3NvcnN8ZW58MXx8fHwxNzcwODU1NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal4,
     },
     {
       id: 8,
       title: 'Afro Taper Fade',
       category: 'Fades',
-      image: 'https://images.unsplash.com/photo-1723541104653-5e478f84e687?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJvJTIwaGFpciUyMHRhcGVyJTIwZmFkZXxlbnwxfHx8fDE3NzA4NTY0NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal5,
     },
     {
       id: 9,
       title: 'Modern Pompadour',
       category: 'Cuts',
-      image: 'https://images.unsplash.com/photo-1643166225426-527f536a6c4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBwb21wYWRvdXIlMjBoYWlyc3R5bGV8ZW58MXx8fHwxNzcwODU1NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal6,
     },
     {
       id: 10,
       title: 'Braids with Fade',
       category: 'Braids',
-      image: 'https://images.unsplash.com/photo-1615754930920-ef87ac0b53ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYnJhaWRzJTIwZmFkZXxlbnwxfHx8fDE3NzA4NTU0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal8,
     },
     {
       id: 11,
       title: 'Colour & Styling',
       category: 'Colour',
-      image: 'https://images.unsplash.com/photo-1636871400631-dcf00cda6421?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwY29sb3IlMjBiYWxheWFnZSUyMG1lbnxlbnwxfHx8fDE3NzA4NTU0ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal9,
     },
     {
       id: 12,
       title: 'Beard Grooming',
       category: 'Beard',
-      image: 'https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJiZXIlMjBkZXRhaWxlZCUyMGJlYXJkJTIwdHJpbXxlbnwxfHx8fDE3NzA4NTY0NTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: signal10,
+    },
+    {
+      id: 13,
+      title: 'Taper Fade',
+      category: 'Fades',
+      image: signal11,
+    },
+    {
+      id: 14,
+      title: 'Classic Cut',
+      category: 'Cuts',
+      image: signal12,
+    },
+    {
+      id: 15,
+      title: 'Cornrows',
+      category: 'Braids',
+      image: signal13,
+    },
+    {
+      id: 16,
+      title: 'Vibrant Colour',
+      category: 'Colour',
+      image: signal14,
+    },
+    {
+      id: 17,
+      title: 'Styled Beard',
+      category: 'Beard',
+      image: signal15,
+    },
+    {
+      id: 18,
+      title: 'High Top Fade',
+      category: 'Fades',
+      image: signal18,
+    },
+    {
+      id: 19,
+      title: 'Curly Cut',
+      category: 'Cuts',
+      image: signal19,
+    },
+    {
+      id: 20,
+      title: 'Box Braids',
+      category: 'Braids',
+      image: signal20,
+    },
+    {
+      id: 21,
+      title: 'Subtle Highlights',
+      category: 'Colour',
+      image: signal21,
+    },
+    {
+      id: 22,
+      title: 'Full Beard Trim',
+      category: 'Beard',
+      image: signal22,
+    },
+    {
+      id: 23,
+      title: 'Creative Cut',
+      category: 'Cuts',
+      image: signal23,
+    },
+    {
+      id: 24,
+      title: 'Sharp Fade',
+      category: 'Fades',
+      image: signal,
+    },
+    {
+      id: 25,
+      title: 'Design',
+      category: 'Cuts',
+      image: image1,
+    },
+    {
+      id: 26,
+      title: 'Kids Cut',
+      category: 'Cuts',
+      image: image2,
+    },
+    {
+      id: 27,
+      title: 'Long Hair Trim',
+      category: 'Cuts',
+      image: image3,
     },
   ];
 

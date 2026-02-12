@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useInView } from 'react-intersection-observer';
 import { Check } from 'lucide-react';
-import izohWorkingImage from 'figma:asset/3929a9dc05e7aa9f05f70d13dcefc608690874d0.png';
+import izohWorkingImage from '../assets/images/izohProfessional.webp';
 
 export function About() {
   const [ref, inView] = useInView({

@@ -61,9 +61,9 @@ export function Hero() {
             <span className="block text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tighter text-amber-500 mb-2">
               ISAAC
             </span>
-            <span className="block text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tighter">
+            {/* <span className="block text-6xl sm:text-8xl lg:text-9xl font-bold tracking-tighter">
               MAYIAKA
-            </span>
+            </span> */}
           </h1>
 
           <div className="text-zinc-400 mb-8">
