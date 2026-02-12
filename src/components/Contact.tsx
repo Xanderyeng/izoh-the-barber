@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { useInView } from 'react-intersection-observer';
-import { MapPin, Phone, Instagram, Mail } from 'lucide-react';
+import { Phone, Instagram, Mail } from 'lucide-react';
 
 export function Contact() {
   const [ref, inView] = useInView({
