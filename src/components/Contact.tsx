@@ -51,11 +51,11 @@ export function Contact() {
       label: 'Izohthebarber',
       href: 'mailto:contact@izohthebarber.com',
     },
-    {
-      icon: MapPin,
-      label: 'Spritz Hair Studio, Runda Mall, Nairobi',
-      href: 'https://maps.google.com/?q=Spritz+Hair+Studio+Runda+Mall+Nairobi',
-    },
+    // {
+    //   icon: MapPin,
+    //   label: 'Spritz Hair Studio, Runda Mall, Nairobi',
+    //   href: 'https://maps.google.com/?q=Spritz+Hair+Studio+Runda+Mall+Nairobi',
+    // },
   ];
 
   return (
